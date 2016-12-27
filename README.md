@@ -10,7 +10,7 @@ Therefore, the best way to use this is to import the Python file into your code 
 - Matplotlib
 
 ## Usage
-`view3DSeries.main( img, spacing=[1,1,1], cmap='gray' );`
+`viewMultiple3DSeries.main( img, spacing=[1,1,1], cmap='gray' );`
 
 `img:`      list of MxNxP dimensional `numpy` arrays.
 
@@ -45,5 +45,5 @@ for i in range(0, 5):
   data.append(sampleData)
   names.append('Dataset: ' + str(i))
 
-view3DSeries( sampleData, names ); 
-view3DSeries( sampleData, spacing=[2, 1, 1], cmap='spectral' );
+view( sampleData, names ); 
+view( sampleData, spacing=[2, 1, 1], cmap='spectral' );
