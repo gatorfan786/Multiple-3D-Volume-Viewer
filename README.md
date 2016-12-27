@@ -23,6 +23,9 @@ Therefore, the best way to use this is to import the Python file into your code 
 ## Example
 Here's a sample test case for you to try out. I would work in IPython since that's the environment that I've been working in. You should just be able to copy the code below and use `%paste` to see the results.
 I also recommend that you normalize each image from 0 to 1 prior to viewing.
+
+![alt text](screenshot.gif "Viewer in all it's glory.")
+
 ```
 ipython
 import matplotlib.pyplot as plt
