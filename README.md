@@ -11,13 +11,17 @@ Therefore, the best way to use this is to import the Python file into your code 
 
 ## Usage
 `view3DSeries.main( img, spacing=[1,1,1], cmap='gray' );`
+
 `img:`      list of MxNxP dimensional `numpy` arrays.
+
 `names:`    list of strings, with names[i] corresponding to the name of img[i].
+
 `spacing:`  3x1 `numpy` array of the spacing in cases of anisotropy. Default is `[1, 1, 1]`.
+
 `cmap:`     `matplotlib` colormap to use. Default is `"gray"`.
 
 ## Example
-Here's a sample test case for you to try out. I would work in IPython since that's the environment that I've been working in. You should just be able to copy the code below and use %paste to see the results.
+Here's a sample test case for you to try out. I would work in IPython since that's the environment that I've been working in. You should just be able to copy the code below and use `%paste` to see the results.
 I also recommend that you normalize each image from 0 to 1 prior to viewing.
 ```
 ipython
