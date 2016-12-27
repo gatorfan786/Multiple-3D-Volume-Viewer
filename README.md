@@ -10,7 +10,7 @@ Therefore, the best way to use this is to import the Python file into your code 
 - Matplotlib
 
 ## Usage
-`viewMultiple3DSeries.main( img, spacing=[1,1,1], cmap='gray' );`
+`viewMultiple3Dseries.main( img, spacing=[1,1,1], cmap='gray' );`
 
 `img:`      list of MxNxP dimensional `numpy` arrays.
 
@@ -29,7 +29,7 @@ I also recommend that you normalize each image from 0 to 1 prior to viewing.
 ```
 ipython
 import matplotlib.pyplot as plt
-from viewMultiple3DSeries import main as view
+from viewMultiple3Dseries import main as view
 import numpy as np
 
 plt.ion(); # Allow interactive mode so that we can work in the console while the plot is up.
