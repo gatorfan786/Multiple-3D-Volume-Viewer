@@ -1,4 +1,4 @@
-# Python-Multiple-3DImages-Viewer
+# Multiple 3D Volume Viewer
 Short Python GUI built using Matplotlib to help visualize (in-shell) multiple 3D datasets and controlling their opacities.
 
 ## Purpose
